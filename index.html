@@ -1,0 +1,21 @@
+<!doctype html>
+<head>
+  <title>Connect 4</title>
+  <link href="connect4.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Connect 4</h1>
+  <h2 id="game-status-board">Player 1's Turn</h2>
+  <div id="game-control">
+    <button id="start-game">Start Game     </button> <br>
+    <label for="player1-color"> Player1 Color: </label><input type="color" value="#ff0000" id="player1-color">
+    <label for="player2-color"> Player2 Color: </label><input type="color" value="#0000ff" id="player2-color">
+  </div>
+<div id="game">  
+  <table id="board"></table>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="connect4.js"></script>
+
+</body>
+</html>
